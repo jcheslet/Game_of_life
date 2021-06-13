@@ -146,7 +146,7 @@ begin
         if Reset = '1' then
             i_addr <= to_unsigned( 0, 19 );
         elsif ce = '1' and i_calc_addr = '1' then
-            i_addr <= ( X_pos  +  Y_pos * to_unsigned( 640, 10) ) ;
+            i_addr <= ( X_pos  +  Y_pos * to_unsigned( 512, 10 ) + Y_pos * to_unsigned( 128, 10 ) ) ;
         end if;
     end if;
 end process;
