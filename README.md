@@ -1,7 +1,10 @@
 # Game of Life
 
-Implementation of John Conway's Game of life in VHDL on Artix-7 (Nexis 4 DDR) with VGA 640x480px at 60Hz output. Cell states can be changed with PS/2 Mouse and buttons. It can iterate at 30 or 60 iterations/s or step by step.
+Implementation of John Conway's Game of life in VHDL on Artix-7 (Nexis 4 DDR) with VGA 640x480px at 60Hz output.
+Cell states can be changed with PS/2 Mouse and on board buttons.
+It can iterate at 30 or 60 iterations/s or step by step.
 
+V2. W.I.P
 
 ## External sources :
 
