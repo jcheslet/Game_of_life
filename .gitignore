@@ -1,0 +1,15 @@
+#ignore vivado except .xpr and simulation conf files
+vivado-2020/*
+!vivado-2020/*.xpr
+!vivado-2020/*.wcfg
+
+
+# flush vivado logs file
+**vivado*.jou
+**vivado*.str
+**vivado*.log
+**vivado*.debug
+**vivado_pid*.zip
+.Xil
+
+.vscode/settings.json
